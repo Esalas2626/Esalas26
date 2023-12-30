@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250vh;
+    background-image: url('Fondo.jpeg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    transition: background-image 1s ease;
+  }
+
+  header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 0; /* Ajuste de espaciado para mejorar la apariencia */
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  #poem-container {
+    max-width: 700px;
+    margin: 25px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #love-poem,
+  #despair-poem {
+    color: #333;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  #despair-poem {
+    color: #8b0000;
+  }
+
+  #slideshow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+
+  .page-image {
+    max-width: 40%;
+    border-radius: 10px; 
+    transition: transform 1s ease;
+  }
+
+  #whatsapp-container {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #btn-siguiente {
+  margin-top: 10px;
+  width: 50px; /* Ajusta el ancho según tus necesidades */
+  height: 50px; /* Ajusta la altura según tus necesidades */
+  background-image: url('next2.png'); /* Reemplaza 'ruta_de_tu_imagen.png' con la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  cursor: pointer; /* Cambia el cursor para indicar que es interactivo */
+  border: none; /* Elimina el borde predeterminado */
+  outline: none; /* Elimina el contorno al hacer clic */
+  border-radius: 60% 
+}
+
+  #whatsapp-icon {
+  width: 80px;
+  height: 80px;
+  background-image: url('whap 2.png');
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0px;
+  border-radius: 60%; /* Agrega esta línea para hacerlo circular */
+  }
+
+  #whatsapp-number {
+    font-size: 30px;
+    color: #25D366; 
+    display: inline-block;
+    vertical-align: middle;
+  }
